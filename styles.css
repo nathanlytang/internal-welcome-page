@@ -1,0 +1,104 @@
+html {
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#E8EAE9));
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+}
+
+#welcome-text {
+    font-size: 50px;
+    padding: 20px 75px;
+}
+
+#confirm-text {
+    font-size: 20px;
+    width: 150px;
+    align-content: center;
+    margin: auto;
+}
+
+#confirm-text-wrapper {
+    margin: 36px 103px;
+}
+
+#square {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e9e9e9, #f8faf9);
+    box-shadow: 20px 20px 60px #c5c7c6, -20px -20px 60px #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 300px;
+}
+
+#welcome {
+    cursor: pointer;
+    border: none;
+    /* padding: 20px 80px; */
+    color: #222F40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(145deg, #e9e9e9, #f8faf9);
+    font-weight: 100;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 28px 28px 50px 0 rgba(5, 15, 31, 0.16), -23px -23px 45px #FFFFFF;
+    user-select: none;
+    outline: none;
+    z-index: 1;
+}
+
+#welcome:hover {
+    background: linear-gradient(145deg, #f8faf9, #e9e9e9);
+}
+
+.searchbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 28px 28px 50px 0 rgba(5, 15, 31, 0.16), -23px -23px 45px #FFFFFF;
+    background: linear-gradient(145deg, #e9e9e9, #f8faf9);
+    border: none;
+    outline: none;
+    min-width: 400px;
+    background-color: transparent;
+    color: #222F40;
+    margin-top: 30px;
+    padding: 15px 10px;
+    font-size: 18px;
+    z-index: 0;
+}
+
+.searchbar:focus {
+    
+    background: linear-gradient(145deg, #f8faf9, #e9e9e9);
+}
+
+.searchbar:focus::placeholder {
+    opacity: 70%;
+}
+
+.searchbar::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(53, 53, 53);
+    opacity: 80%;
+    /* Firefox */
+}
+
+.searchbar:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(53, 53, 53);
+}
+
+.searchbar::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(53, 53, 53);
+}
